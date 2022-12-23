@@ -4,7 +4,7 @@ The [Syncfusion .NET OCR library](https://www.syncfusion.com/document-processing
 
 Sample name | Description
 --- | ---
-[Perform OCR for a region of PDF document](https://github.com/SyncfusionExamples/optical-character-recognition-in-pdf/tree/EJDOTNETCORE-4309-Add-sample-link/Perform-OCR-WF) | Perform OCR on particular region or several regions of PDF documents. 
+[Perform OCR for a region of PDF document](https://github.com/SyncfusionExamples/optical-character-recognition-in-pdf/tree/master/Perform-OCR-WF) | Perform OCR on particular region or several regions of PDF documents. 
 
 # How to run the examples
 * Download this project to a location in your disk. 
