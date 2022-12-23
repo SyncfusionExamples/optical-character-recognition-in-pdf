@@ -4,7 +4,6 @@ The [Syncfusion .NET OCR library](https://www.syncfusion.com/document-processing
 
 Sample name | Description
 --- | ---
-
 Perform OCR for a region of PDF document | Perform OCR on particular region or several regions of PDF documents. 
 
 # How to run the examples
