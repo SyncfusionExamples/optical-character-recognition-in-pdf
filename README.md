@@ -1,5 +1,5 @@
 # Perform OCR in PDF using C#
-The [Syncfusion&reg; .NET OCR library](https://www.syncfusion.com/document-processing/pdf-framework/net/pdf-library/ocr-process) used to extract text from the particular region of scanned PDF document in Windows Forms application with the help of Google's [Tesseract](https://github.com/tesseract-ocr/tesseract) Optical Character Recognition engine. This repository contains examples of PDF OCR using C#. 
+The [Syncfusion&reg; .NET OCR library](https://www.syncfusion.com/document-processing/pdf-framework/net/pdf-library/ocr-process) used to extract text from the particular region of scanned PDF document in Windows Forms application with the help of Google's [Tesseract](https://github.com/tesseract-ocr/tesseract) Optical Character Recognition engine. This repository contains examples of PDF OCR using C#.. 
 
 
 Sample name | Description
