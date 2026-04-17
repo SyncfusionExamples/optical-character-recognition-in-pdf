@@ -37,18 +37,23 @@
   <ItemGroup>
     <Reference Include="Syncfusion.Compression.Base, Version=33.1462.49.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.Compression.Base.33.1.49\lib\net462\Syncfusion.Compression.Base.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Syncfusion.ImagePreProcessor.Base, Version=33.1462.49.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.ImagePreProcessor.WinForms.33.1.49\lib\net462\Syncfusion.ImagePreProcessor.Base.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Syncfusion.Licensing, Version=33.1462.49.0, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.Licensing.33.1.49\lib\net462\Syncfusion.Licensing.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Syncfusion.OCRProcessor.Base, Version=33.1462.49.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.Pdf.OCR.WinForms.33.1.49\lib\net462\Syncfusion.OCRProcessor.Base.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Syncfusion.Pdf.Base, Version=33.1462.49.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.Pdf.WinForms.33.1.49\lib\net462\Syncfusion.Pdf.Base.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -98,11 +103,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\Syncfusion.Pdf.OCR.WinForms.20.3.0.61\build\net46\Syncfusion.Pdf.OCR.WinForms.targets" Condition="Exists('..\packages\Syncfusion.Pdf.OCR.WinForms.20.3.0.61\build\net46\Syncfusion.Pdf.OCR.WinForms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Syncfusion.Pdf.OCR.WinForms.20.3.0.61\build\net46\Syncfusion.Pdf.OCR.WinForms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Syncfusion.Pdf.OCR.WinForms.20.3.0.61\build\net46\Syncfusion.Pdf.OCR.WinForms.targets'))" />
+    <Error Condition="!Exists('..\packages\Syncfusion.Pdf.OCR.WinForms.33.1.49\build\net462\Syncfusion.Pdf.OCR.WinForms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Syncfusion.Pdf.OCR.WinForms.33.1.49\build\net462\Syncfusion.Pdf.OCR.WinForms.targets'))" />
   </Target>
+  <Import Project="..\packages\Syncfusion.Pdf.OCR.WinForms.33.1.49\build\net462\Syncfusion.Pdf.OCR.WinForms.targets" Condition="Exists('..\packages\Syncfusion.Pdf.OCR.WinForms.33.1.49\build\net462\Syncfusion.Pdf.OCR.WinForms.targets')" />
 </Project>
